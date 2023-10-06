@@ -21,7 +21,10 @@ public class Vehicle extends Product {
     public void getSpeed() {
         getSpeed();
     }
-    public void printVehicleType(this.getClass().getSimpleName());
+    public void printVehicleType(Vehicle vehicle) {
+        System.out.println(vehicle.getClass().getSimpleName());
+    }
+
 
     public float getPriceAfterTax() {
         return price + (price * TAX_AMT);

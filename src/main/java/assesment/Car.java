@@ -12,9 +12,15 @@ private static final float EXTRA_TAX = 0.05f;
     public int getNumberOfDoors() {
         return numberOfDoors
     }
+
+    @Override
+    public void printSpeed() {
+
+    }
+
     @Override
     public void printSpeed(Vehicle vehicle) {
-        System.out.println("Car speed is:" + vehicle.getSpeed();
+        System.out.println(vehicle.getSpeed();
     }
 
     public float getPriceAfterExtraTax() {

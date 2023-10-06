@@ -11,6 +11,11 @@ public class FlyingCar extends Vehicle implements Flyable, Driveable {
 
 
     @Override
+    public void printSpeed() {
+
+    }
+
+    @Override
     public void printSpeed(Vehicle vehicle) {
         System.out.println("The speed of the flying car is:" + vehicle.getSpeed());
     }
